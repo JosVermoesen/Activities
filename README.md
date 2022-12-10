@@ -40,29 +40,29 @@ dotnet restore
 Write-Host "Finished!" -ForegroundColor Green
 ```
 
-## Nugget Packages
+### Nugget Packages
 
-### Add the following packages to the Persistance project
+#### Add the following packages to the Persistance project
 
 - Microsoft.EntityFrameworkCoreSqlLite
 
-### Add the following packages to the API project
+#### Add the following packages to the API project
 
 - Microsoft.EntityFrameworkCore.Design
 
-## Install or update dotnet Entity Framework tool
+### Install or update dotnet Entity Framework tool
 
 ```bash
 dotnet tool list -g
 ```
 
-### First install
+#### First install
 
 ```bash
 dotnet tool install --global dotnet-ef
 ```
 
-### Update EF to latest version dotnet core version
+#### Update EF to latest version dotnet core version
 
 For example:
 
@@ -70,7 +70,7 @@ For example:
 dotnet tool update -g dotnet-ef --version 7.0.0
 ```
 
-### Some EF commands
+#### Some EF commands
 
 Use switches -s and -p to specify the startup project and the project where the migrations are located.
 
@@ -79,13 +79,21 @@ dotnet ef migrations add InitialCreate -s API -p Persistence
 dotnet ef database update
 ```
 
+## Walking sceleton REACT
+
+Creates the boilerplate for the projects and adds the references between them.
+
+```bash
+npx create-react-app client-app --use-npm --template typescript
+```
+
 ## Git
 
 ```bash
 git status
 ```
 
-### Initialize the repository
+### Initialize Git repository
 
 ```bash
 git init
