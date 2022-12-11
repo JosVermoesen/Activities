@@ -42,13 +42,18 @@ Write-Host "Finished!" -ForegroundColor Green
 
 ### Nugget Packages
 
-#### Add the following packages to the Persistance project
+#### Add to Persistance project
 
 - Microsoft.EntityFrameworkCoreSqlLite
 
-#### Add the following packages to the API project
+#### Add to the API project
 
 - Microsoft.EntityFrameworkCore.Design
+
+#### Add to the Application project
+
+- MediatR.Extensions.Microsoft.DependencyInjectionµ
+- AutoMapper.Extensions.Microsoft.DependencyInjection
 
 ### Install or update dotnet Entity Framework tool
 
