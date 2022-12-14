@@ -25,3 +25,12 @@ Axios is a promise based HTTP client for the browser and node.js. It basically m
 Semantic UI is a development framework that helps create beautiful, responsive layouts using human-friendly HTML. Semantic UI Fomantic UI is a community fork of Semantic UI.
 
 - npm install semantic-ui-react semantic-ui-css
+
+## uuid - @types/uuid
+
+A library to generate unique ids. @types/uuid is a library that provides type definitions for uuid.
+
+- npm install uuid
+- npm install @types/uuid
+
+
