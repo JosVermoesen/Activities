@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -33,4 +35,17 @@ A library to generate unique ids. @types/uuid is a library that provides type de
 - npm install uuid
 - npm install @types/uuid
 
+## MobX
+
+MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP).
+
+MobX is a standalone library that can be used with any other framework or even without a framework.
+
+MobX React Lite is a lightweight version of MobX React that is optimized for small bundle sizes and fast startup times.
+
+- npm install mobx mobx-react-lite
+
+## React Context API
+
+The React Context API is a way to pass data through the component tree without having to pass props down manually at every level.
 
