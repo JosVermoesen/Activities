@@ -49,3 +49,8 @@ MobX React Lite is a lightweight version of MobX React that is optimized for sma
 
 The React Context API is a way to pass data through the component tree without having to pass props down manually at every level.
 
+## React-router-dom
+
+React Router is a collection of navigational components that compose declaratively with your application. Whether you want to have bookmarkable URLs for your web app or a composable way to navigate in React Native, React Router works wherever React is rendering--so take your pick!
+
+- npm install react-router-dom
